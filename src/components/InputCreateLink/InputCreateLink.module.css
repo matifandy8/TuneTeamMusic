@@ -1,0 +1,10 @@
+.inputCreateLink {
+  margin-bottom: 100px;
+  .inputCreateLink__input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-secondary);
+    padding: 15px;
+    color: white;
+  }
+}
