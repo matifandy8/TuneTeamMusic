@@ -11,6 +11,7 @@ const InputCreateLink = () => {
         id=""
         placeholder="Enter Name"
       />
+      <button className={styles.inputCreateLink__button}>Create</button>
     </div>
   );
 };

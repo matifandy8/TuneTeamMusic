@@ -1,5 +1,6 @@
 import InputCreateLink from "@/components/InputCreateLink/InputCreateLink";
 import styles from "./page.module.css";
+import PublicLinks from "@/components/PublicLinks/PublicLinks";
 
 export default function Home() {
   return (
@@ -12,22 +13,7 @@ export default function Home() {
         room or halfway across the world. Create & share your link now:
       </p>
       <InputCreateLink />
-      <div className={styles.listLinks}>
-        <p className={styles.listLinks__title}>
-          Join a public link to discover and listen to music with others across
-          the globe!
-        </p>
-        <div className={styles.listLinks__list}>
-          <ul>
-            <li>
-              <a href="#">Link 1</a>
-            </li>
-            <li>
-              <a href="#">Link 2</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <PublicLinks />
       <footer className={styles.footer}>
         <p>© 2024 TuneTeam</p>
         <p>All rights reserved.</p>

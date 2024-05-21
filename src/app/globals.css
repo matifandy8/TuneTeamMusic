@@ -52,3 +52,9 @@ a {
     color-scheme: dark;
   }
 }
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
