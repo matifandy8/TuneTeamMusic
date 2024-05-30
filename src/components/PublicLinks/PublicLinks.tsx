@@ -11,10 +11,14 @@ const PublicLinks = () => {
       <div className={styles.publicLinks__list}>
         <ul>
           <li>
-            <a href="#">Link 1</a>
+            <a href="http://localhost:3000/room/joseph">
+              http://localhost:3000/room/joseph
+            </a>
           </li>
           <li>
-            <a href="#">Link 2</a>
+            <a href="http://localhost:3000/room/michael">
+              http://localhost:3000/room/michael
+            </a>
           </li>
         </ul>
       </div>
