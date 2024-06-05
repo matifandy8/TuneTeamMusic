@@ -6,6 +6,7 @@
   padding: 2rem;
   max-width: 1200px;
   min-height: 100vh;
+  margin: 0 auto;
   .absoluteshape {
     position: absolute;
     z-index: -1;
@@ -22,8 +23,9 @@
   }
   .title {
     font-size: 9vw;
-    line-height: 1.1;
-    font-weight: 700;
+    font-weight: 800;
+    line-height: 0.83;
+    letter-spacing: -0.1em;
     border-bottom: 1px solid var(--color-secondary);
   }
   .description {

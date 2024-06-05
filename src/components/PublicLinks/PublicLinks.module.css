@@ -1,3 +1,16 @@
 .publicLinks {
   margin: 100px 0px 200px 0px;
 }
+.publicLinks__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.publicLinks__list {
+}
+
+.publicLinks__list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
