@@ -1,10 +1,16 @@
 import styles from "./page.module.css";
+import { rooms } from "@/db/schema/rooms";
+import { db } from "@/db";
 
-export default function Page({ params }: { params: { id: string } }) {
-  // TODO: check if room exists on db and return a page with the info of the room
-  // get info from db and pass it to the page component
-
+export default async function Page({ params }: { params: { id: string } }) {
   const roomId = params.id;
+
+  const roomsAll = await db
+    .select({ id: rooms.id, name: rooms.name, created_by: rooms.created_by })
+    .from(rooms)
+    .all();
+
+  const room = roomsAll.find((room) => room.id === roomId);
 
   return (
     <div className={styles.container}>
