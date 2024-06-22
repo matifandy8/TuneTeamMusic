@@ -12,6 +12,16 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   const room = roomsAll.find((room) => room.id === roomId);
 
+  if (room) {
+    return (
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Room {room.name}</h1>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.content}>
