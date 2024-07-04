@@ -12,5 +12,15 @@
 .publicLinks__list ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  list-style: none;
+  background: rgb(255 255 255 / 0%);
+  border: 1px solid rgb(255 255 255 / 21%);
+}
+.publicLinks__list ul li {
+  border-bottom: 1px solid rgb(255 255 255 / 21%);
+  line-height: 40px;
+  padding: 10px;
+}
+.publicLinks__list ul li:hover {
+  background-color: #0e0c06;
 }

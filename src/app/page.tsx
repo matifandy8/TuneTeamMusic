@@ -9,8 +9,7 @@ export default function Home() {
       <h1 className={styles.title}>TuneTeam</h1>
       <p className={styles.description}>
         TuneTeam is a social media player that lets you share music across
-        limitless people, devices and speakers, whether they&apos;re in the same
-        room or halfway across the world. Create & share your link now:
+        limitless people. Create & share your link now:
       </p>
       <InputCreateLink />
       <PublicLinks />

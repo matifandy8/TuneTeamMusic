@@ -2,7 +2,6 @@
   font-family: "Syne";
   src: url("/public/fonts/Syne-Bold.ttf");
   src: url("/public/fonts/Syne-Regular.ttf");
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -46,7 +45,7 @@ body {
 
 body {
   color: var(--color-primary);
-  background: var(--background-color);
+  background: #ffffff0f;
 }
 h1 {
   font-family: Syne;

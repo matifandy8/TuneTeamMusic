@@ -10,16 +10,12 @@ const PublicLinks = () => {
       </p>
       <div className={styles.publicLinks__list}>
         <ul>
-          <li>
-            <a href="http://localhost:3000/room/joseph">
-              http://localhost:3000/room/joseph
-            </a>
-          </li>
-          <li>
-            <a href="http://localhost:3000/room/michael">
-              http://localhost:3000/room/michael
-            </a>
-          </li>
+          <a href="http://localhost:3000/room/joseph">
+            <li>http://localhost:3000/room/joseph</li>
+          </a>
+          <a href="http://localhost:3000/room/michael">
+            <li>http://localhost:3000/room/michael</li>
+          </a>
         </ul>
       </div>
     </div>
